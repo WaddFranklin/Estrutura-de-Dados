@@ -1,0 +1,3 @@
+/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir
+/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/edit_cache.dir
