@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/TADS.dir/main.c.o CMakeFiles/TADS.dir/tree.c.o  -o TADS 
+/usr/bin/cc -g   CMakeFiles/TADS.dir/main.c.o CMakeFiles/TADS.dir/tree.c.o CMakeFiles/TADS.dir/graph.c.o  -o TADS 

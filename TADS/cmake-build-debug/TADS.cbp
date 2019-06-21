@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.c">
+			<Option target="TADS"/>
+		</Unit>
+		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.h">
+			<Option target="TADS"/>
+		</Unit>
 		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/main.c">
 			<Option target="TADS"/>
 		</Unit>

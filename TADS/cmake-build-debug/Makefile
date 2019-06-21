@@ -123,6 +123,33 @@ TADS/fast:
 	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/build
 .PHONY : TADS/fast
 
+graph.o: graph.c.o
+
+.PHONY : graph.o
+
+# target to build an object file
+graph.c.o:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/graph.c.o
+.PHONY : graph.c.o
+
+graph.i: graph.c.i
+
+.PHONY : graph.i
+
+# target to preprocess a source file
+graph.c.i:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/graph.c.i
+.PHONY : graph.c.i
+
+graph.s: graph.c.s
+
+.PHONY : graph.s
+
+# target to generate assembly for a file
+graph.c.s:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/graph.c.s
+.PHONY : graph.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TADS"
 	@echo "... edit_cache"
+	@echo "... graph.o"
+	@echo "... graph.i"
+	@echo "... graph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/tree.c
+/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.c
 stdio.h
 -
 stdlib.h
 -
 stdbool.h
+-
+
+/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.h
+stdbool.h
+-
+
+/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/main.c
+graph.h
+/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.h
+stdio.h
 -
 

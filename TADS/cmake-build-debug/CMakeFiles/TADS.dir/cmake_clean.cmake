@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TADS.dir/main.c.o"
   "CMakeFiles/TADS.dir/tree.c.o"
+  "CMakeFiles/TADS.dir/graph.c.o"
   "TADS.pdb"
   "TADS"
 )

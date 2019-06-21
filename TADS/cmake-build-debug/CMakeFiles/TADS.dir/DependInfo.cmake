@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/graph.c.o"
   "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/main.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/main.c.o"
   "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/tree.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/tree.c.o"
   )
