@@ -18,6 +18,7 @@ struct adj_list {
 };
 
 struct graph {
+    int num_vertexes;
     AdjList **vertexes;
     bool *visited;
 };
@@ -26,6 +27,7 @@ Graph* create_graph(int num_vertexes) {
     Graph *new_graph = (Graph*)malloc(sizeof(Graph));
     new_graph->vertexes = (AdjList**)malloc(num_vertexes * sizeof(AdjList*));
     new_graph->visited = (bool*)malloc(num_vertexes * sizeof(bool));
+    new_graph->num_vertexes = num_vertexes;
 
     int i;
     for(i = 0 ; i < num_vertexes ; i++) {
@@ -42,6 +44,31 @@ AdjList* create_adj_list(int item) {
     new_adj_list->item = item;
     new_adj_list->next = NULL;
     return new_adj_list;
+}
+
+AdjList* remove_adj_list(AdjList *head, int item) {
+    AdjList *previous = NULL;
+    AdjList *current = head;
+
+    while(current != NULL && current->item != item) {
+        previous = current;
+        current = current->next;
+    }
+
+    if(current == NULL) {
+        return head;
+    }
+
+    if(previous == NULL) {
+        head = current->next;
+    }
+    else {
+        previous->next = current->next;
+        current->next = NULL;
+    }
+
+    free(current);
+    return head;
 }
 
 void add_edge(Graph *g, int vertex1, int vertex2, bool directed) {
@@ -73,7 +100,7 @@ Graph* construct_graph(int num_vertexes, int num_edges) {
 
 void dfs(Graph *g, int start) {
     g->visited[start] = true;
-    printf("%d ", start);
+    //printf("%d ", start);
 
     AdjList *vertex = g->vertexes[start];
     while(vertex != NULL) {
@@ -84,13 +111,47 @@ void dfs(Graph *g, int start) {
     }
 }
 
-void print_graph(Graph *g, int num_vertexes) {
+void remove_vertex(Graph *g, int vertex) {
+    int i;
+    AdjList *aux = NULL;
+
+    for(i = 0 ; i < g->num_vertexes ; i++) {
+        if(i == vertex) {
+            aux = g->vertexes[i];
+            g->vertexes[i] = NULL;
+            free(aux);
+        }
+        else {
+            g->vertexes[i] = remove_adj_list(g->vertexes[i], vertex);
+        }
+    }
+    g->visited[vertex] = true;
+}
+
+void reset_visited(Graph *g) {
+    int i;
+
+    for(i = 0 ; i < g->num_vertexes ; i++) {
+        g->visited[i] = false;
+    }
+}
+
+bool is_connected(Graph *g) {
+    int i;
+
+    for(i = 0 ; i < g->num_vertexes ; i++) {
+        if(!g->visited[i]) return false;
+    }
+    return true;
+}
+
+void print_graph(Graph *g) {
     int i;
     AdjList *current = NULL;
 
-    for(i = 0 ; i < num_vertexes ; i++) {
+    for(i = 0 ; i < g->num_vertexes ; i++) {
         if(g->visited[i]) {
-            printf("[visited] ");
+            printf("[    visited] ");
         }
         else {
             printf("[not visited] ");
