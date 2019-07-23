@@ -177,6 +177,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/main.c.s
 .PHONY : main.c.s
 
+queue.o: queue.c.o
+
+.PHONY : queue.o
+
+# target to build an object file
+queue.c.o:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/queue.c.o
+.PHONY : queue.c.o
+
+queue.i: queue.c.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.c.i:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/queue.c.i
+.PHONY : queue.c.i
+
+queue.s: queue.c.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.c.s:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/queue.c.s
+.PHONY : queue.c.s
+
+stack.o: stack.c.o
+
+.PHONY : stack.o
+
+# target to build an object file
+stack.c.o:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/stack.c.o
+.PHONY : stack.c.o
+
+stack.i: stack.c.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.c.i:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/stack.c.i
+.PHONY : stack.c.i
+
+stack.s: stack.c.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.c.s:
+	$(MAKE) -f CMakeFiles/TADS.dir/build.make CMakeFiles/TADS.dir/stack.c.s
+.PHONY : stack.c.s
+
 tree.o: tree.c.o
 
 .PHONY : tree.o
@@ -219,6 +273,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
+	@echo "... stack.o"
+	@echo "... stack.i"
+	@echo "... stack.s"
 	@echo "... tree.o"
 	@echo "... tree.i"
 	@echo "... tree.s"

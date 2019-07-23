@@ -4,7 +4,11 @@
 CMakeFiles/TADS.dir/graph.c.o
  /home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.c
 CMakeFiles/TADS.dir/main.c.o
- /home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.h
  /home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/main.c
+ /home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/queue.h
+CMakeFiles/TADS.dir/queue.c.o
+ /home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/queue.c
+CMakeFiles/TADS.dir/stack.c.o
+ /home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/stack.c
 CMakeFiles/TADS.dir/tree.c.o
  /home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/tree.c

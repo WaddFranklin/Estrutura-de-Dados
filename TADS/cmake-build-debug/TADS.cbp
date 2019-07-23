@@ -87,6 +87,18 @@
 		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/main.c">
 			<Option target="TADS"/>
 		</Unit>
+		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/queue.c">
+			<Option target="TADS"/>
+		</Unit>
+		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/queue.h">
+			<Option target="TADS"/>
+		</Unit>
+		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/stack.c">
+			<Option target="TADS"/>
+		</Unit>
+		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/stack.h">
+			<Option target="TADS"/>
+		</Unit>
 		<Unit filename="/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/tree.c">
 			<Option target="TADS"/>
 		</Unit>

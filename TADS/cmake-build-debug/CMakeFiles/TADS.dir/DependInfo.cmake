@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/graph.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/graph.c.o"
   "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/main.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/main.c.o"
+  "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/queue.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/queue.c.o"
+  "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/stack.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/stack.c.o"
   "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/tree.c" "/home/franklin/Dropbox/DOCUMENTOS/Monitoria/Estrutura-de-Dados/TADS/cmake-build-debug/CMakeFiles/TADS.dir/tree.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

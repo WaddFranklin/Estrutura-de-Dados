@@ -3,8 +3,12 @@
 
 CMakeFiles/TADS.dir/graph.c.o: ../graph.c
 
-CMakeFiles/TADS.dir/main.c.o: ../graph.h
 CMakeFiles/TADS.dir/main.c.o: ../main.c
+CMakeFiles/TADS.dir/main.c.o: ../queue.h
+
+CMakeFiles/TADS.dir/queue.c.o: ../queue.c
+
+CMakeFiles/TADS.dir/stack.c.o: ../stack.c
 
 CMakeFiles/TADS.dir/tree.c.o: ../tree.c
 
